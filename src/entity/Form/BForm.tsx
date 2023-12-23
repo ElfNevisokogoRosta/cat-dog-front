@@ -32,7 +32,7 @@ export const BForm: React.FC<IFormElement<IFormConfig<IInputConfig>>> = ({
     return func({...data});
   };
   return (
-    <div>
+    <div className={form.form_main_container}>
       <form onSubmit={submitHandler}>
         <div className={form.form_wrapper}>
           {elements.map((e) => {

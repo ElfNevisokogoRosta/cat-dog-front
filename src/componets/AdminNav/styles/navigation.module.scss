@@ -1,0 +1,39 @@
+@import '../../../styles/utils/common.module.scss';
+.header_container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navigation_list{
+  @include list
+}
+.navigation_container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+.navigation_link_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigations_link{
+  padding: 12px 24px;
+  border: 1px solid #f2f2f2;
+  border-radius: 24px;
+  color: #EFEFEF;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Inter, 'sans-serif';
+  font-weight: 700;
+  transition: color 250ms ease-in, background-color 250ms ease-in;
+  &:hover{
+    background-color: #f2f2f2;
+    color: #13463A;
+  }
+}
+.active{
+  background-color: #f2f2f2;
+  color: #13463A;
+}

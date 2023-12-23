@@ -14,11 +14,13 @@ export default function AuthLayout({ children }: {
         <Image src="/logo.png" width={120} height={60} alt="logo" />
       </div>
     </header>
-    <div className={form.from_container}>
-      <div className={common.container}>
-        {children}
-      </div>
-    </div>
+
+      <main className={form.from_container}>
+        <div className={common.container}>
+          {children}
+        </div>
+      </main>
+
     <footer className={footer.footer_register}>
       <div className={common.container}>
         <div className={footer.footer_info}>

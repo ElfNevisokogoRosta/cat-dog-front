@@ -2,7 +2,7 @@ import { registerConfig } from "@/config/registerForm.config";
 import { BForm } from "@/entity/Form/BForm";
 import { IFormRegisterData } from "@/types/components/IFormRegisteData";
 import React from "react";
-import form from '../styles/form/form.module.scss'
+import form from '../../styles/form/form.module.scss'
 import {useRegisterUser} from "@/shared/api/mutations/register.mutations";
 export const RegisterForm = () => {
 
